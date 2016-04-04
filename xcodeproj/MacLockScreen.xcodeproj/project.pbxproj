@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A64E339D1CB2749000BE2A68 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A64E339C1CB2749000BE2A68 /* AppDelegate.m */; };
+		A64E33A01CB2749000BE2A68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A64E339F1CB2749000BE2A68 /* main.m */; };
+		A64E33A21CB2749000BE2A68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A64E33A11CB2749000BE2A68 /* Assets.xcassets */; };
+		A64E33A51CB2749000BE2A68 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A64E33A31CB2749000BE2A68 /* MainMenu.xib */; };
+		A64E33AD1CB2756000BE2A68 /* login.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A64E33AC1CB2756000BE2A68 /* login.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A64E33981CB2749000BE2A68 /* LockScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LockScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A64E339B1CB2749000BE2A68 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A64E339C1CB2749000BE2A68 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A64E339F1CB2749000BE2A68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A64E33A11CB2749000BE2A68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A64E33A41CB2749000BE2A68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A64E33A61CB2749000BE2A68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A64E33AC1CB2756000BE2A68 /* login.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = login.framework; path = /System/Library/PrivateFrameworks/login.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A64E33951CB2749000BE2A68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A64E33AD1CB2756000BE2A68 /* login.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A64E338F1CB2749000BE2A68 = {
+			isa = PBXGroup;
+			children = (
+				A64E33AE1CB2756B00BE2A68 /* Framework */,
+				A64E339A1CB2749000BE2A68 /* LockScreen */,
+				A64E33991CB2749000BE2A68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A64E33991CB2749000BE2A68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A64E33981CB2749000BE2A68 /* LockScreen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A64E339A1CB2749000BE2A68 /* LockScreen */ = {
+			isa = PBXGroup;
+			children = (
+				A64E339B1CB2749000BE2A68 /* AppDelegate.h */,
+				A64E339C1CB2749000BE2A68 /* AppDelegate.m */,
+				A64E33A11CB2749000BE2A68 /* Assets.xcassets */,
+				A64E33A31CB2749000BE2A68 /* MainMenu.xib */,
+				A64E33A61CB2749000BE2A68 /* Info.plist */,
+				A64E339E1CB2749000BE2A68 /* Supporting Files */,
+			);
+			name = LockScreen;
+			path = ../src/MacLockScreen;
+			sourceTree = "<group>";
+		};
+		A64E339E1CB2749000BE2A68 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A64E339F1CB2749000BE2A68 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A64E33AE1CB2756B00BE2A68 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				A64E33AC1CB2756000BE2A68 /* login.framework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A64E33971CB2749000BE2A68 /* LockScreen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A64E33A91CB2749000BE2A68 /* Build configuration list for PBXNativeTarget "LockScreen" */;
+			buildPhases = (
+				A64E33941CB2749000BE2A68 /* Sources */,
+				A64E33951CB2749000BE2A68 /* Frameworks */,
+				A64E33961CB2749000BE2A68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LockScreen;
+			productName = LockScreen;
+			productReference = A64E33981CB2749000BE2A68 /* LockScreen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A64E33901CB2749000BE2A68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ccnyou;
+				TargetAttributes = {
+					A64E33971CB2749000BE2A68 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = A64E33931CB2749000BE2A68 /* Build configuration list for PBXProject "MacLockScreen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A64E338F1CB2749000BE2A68;
+			productRefGroup = A64E33991CB2749000BE2A68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A64E33971CB2749000BE2A68 /* LockScreen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A64E33961CB2749000BE2A68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A64E33A21CB2749000BE2A68 /* Assets.xcassets in Resources */,
+				A64E33A51CB2749000BE2A68 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A64E33941CB2749000BE2A68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A64E33A01CB2749000BE2A68 /* main.m in Sources */,
+				A64E339D1CB2749000BE2A68 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A64E33A31CB2749000BE2A68 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A64E33A41CB2749000BE2A68 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A64E33A71CB2749000BE2A68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A64E33A81CB2749000BE2A68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A64E33AA1CB2749000BE2A68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+				INFOPLIST_FILE = ../src/MacLockScreen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ccnyou.LockScreen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A64E33AB1CB2749000BE2A68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+				INFOPLIST_FILE = ../src/MacLockScreen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ccnyou.LockScreen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A64E33931CB2749000BE2A68 /* Build configuration list for PBXProject "MacLockScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A64E33A71CB2749000BE2A68 /* Debug */,
+				A64E33A81CB2749000BE2A68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A64E33A91CB2749000BE2A68 /* Build configuration list for PBXNativeTarget "LockScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A64E33AA1CB2749000BE2A68 /* Debug */,
+				A64E33AB1CB2749000BE2A68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A64E33901CB2749000BE2A68 /* Project object */;
+}
